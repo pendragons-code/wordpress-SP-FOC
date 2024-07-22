@@ -81,7 +81,7 @@ edit `apache2.conf`:
 ![alt text](image-3.png)
 restart apache:
 ```
-sudo systemctl restart apache
+sudo systemctl restart apache2
 ```
 
 Move files and copy sample:
