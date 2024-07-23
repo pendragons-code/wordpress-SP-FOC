@@ -77,8 +77,8 @@ Configure apache and wordpress:
 cd /etc/apache2
 ```
 
-edit `apache2.conf`:
-![alt text](image-3.png)
+edit `apache2.conf` (remember to replace /`wordpress` with /`admin number`):<br>
+![alt text](image-3.png)<br>
 restart apache:
 ```
 sudo systemctl restart apache2
