@@ -78,7 +78,6 @@ cd /etc/apache2
 ```
 <br>
 
-<<<<<<< HEAD
 ```
 sudo vim /etc/apache2/sites-available/000-default.conf
 ```
@@ -86,10 +85,8 @@ sudo vim /etc/apache2/sites-available/000-default.conf
 <br>
 edit `apache2.conf`:
 ![alt text](image-3.png)
-=======
 edit `apache2.conf` (remember to replace /`wordpress` with /`admin number`):<br>
 ![alt text](image-3.png)<br>
->>>>>>> 36a14eb42927c605792c2f98a03f8ddaca039ab8
 restart apache:
 ```
 sudo systemctl restart apache2
