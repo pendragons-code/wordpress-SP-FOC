@@ -76,7 +76,13 @@ Configure apache and wordpress:
 ```
 cd /etc/apache2
 ```
+<br>
 
+```
+sudo vim /etc/apache2/sites-available/000-default.conf
+```
+![alt text](image-7.png)
+<br>
 edit `apache2.conf`:
 ![alt text](image-3.png)
 restart apache:
