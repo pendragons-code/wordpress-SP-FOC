@@ -124,8 +124,16 @@ username: wordpress-user-adminNO
 password: adminNO
 enter your email
 ```
+
+
 click install wordpress.<br>
 
+
+## ADDITIONAL:
+go to `/var/www/html/adminNo`
+![alt text](image-8.png)
+
+change `http://127.0.0.1` to the device ip address (you can get this via `ip -a`)
 
 for monitoring logs:
 ```
